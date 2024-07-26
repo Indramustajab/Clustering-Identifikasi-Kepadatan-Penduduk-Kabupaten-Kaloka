@@ -1,6 +1,13 @@
 ># Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka
 > >Identifikasi pola-pola kepadatan penduduk yang ada di Kabupaten Kolaka
 
+## Table of Contents
+
+- [Permasalahan](## Permasalahan)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Screenshots](#screenshots)
+
 ## Permasalahan
 Tujuan identifikasi untuk memperoleh pemahaman yang lebih dalam tentang sebaran populasi di Kabupaten Kolaka, yang akan memberikan dasar bagi pengambilan keputusan yang lebih baik terkait dengan pengembangan wilayah dan kebijakan publik. Variabel data yang akan digunakan mencakup informasi populasi, termasuk jumlah penduduk di setiap wilayah administratif, serta atribut lain yang penting seperti luas wilayah atau perkembangan ekonomi. Metode analisis akan menggunakan teknik clustering untuk mengelompokkan wilayah-wilayah dengan pola kepadatan penduduk yang serupa menjadi cluster-cluster yang berbeda. Teknik clustering seperti K-means, DBSCAN, atau Hierarchical Clustering mungkin akan digunakan. Data yang Dibutuhkan adalah data geografis yang mencakup informasi tentang lokasi dan jumlah penduduk di setiap bagian administratif Kabupaten Kolaka, serta atribut-atribut lain yang relevan. Nantinya hasil yang diharapkan yaitu pemetaan cluster kepadatan penduduk, yang akan membantu dalam memahami lebih baik distribusi populasi di Kabupaten Kolaka. Pemetaan ini akan berguna untuk mengenali daerah-daerah dengan kepadatan penduduk yang berbeda, serta peluang dan tantangan dalam pembangunan wilayah
 
@@ -140,9 +147,9 @@ Sedangkan gambar berikut ini merupakan hasil pemetaan pointing dalam bentuk 2D. 
 -   Values
 <table>
   <tr>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/grafik%20%20(21).png" width="200" height="200" /></td>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/gafik%20%20(20).png" width="200" height="200" /></td>
-     <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/gafik%20%20(19).png" width="200" height="200" /></td>
+    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/grafik%20%20(21).png" width="400" height="200" /></td>
+    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/grafik%20%20(20).png" width="400" height="200" /></td>
+     <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/grafik%20%20(19).png" width="400" height="200" /></td>
   </tr>
 </table>
 Gambar pertama merupakan hasil grafik dari continue, jumlah penduduk disetiap daerah dengan menggunakan acuan jumlah banyaknya daerah yang masuk.
@@ -150,26 +157,27 @@ Gambar kedua merupakan hasil grafik dari continue, luas wilayah yang memiliki ac
 Gambar ketiga merupakan grafik dari clustering dari kedua data tersebut dengan memperhitungkan daerah mana saja yang termasuk dalam pusat pointing yang sudah di buat.
 <br></br>
 
--   Values
+-   Print out K-Means
 <table>
   <tr>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(5).png" width="400" height="200" /></td>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(6).png" width="400" height="200" /></td>
+    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/grafik%20%20(18).png" width="700" height="400" /></td>
+
   </tr>
 </table>
 Dari semua proses yang sudah dilakukan baik dari normalisasi data, pemetaan awal, dan lain-lain. Maka hasil output dari setiap proses tersebut ada dalam gambar diatas. Jika dilihat dari hasil akhir gambar tersebut, terdapat 3 titik utama sebagai titik acuan jarak terdekat dari tiap-tiap daerah yang ada. Sehingga dapat disimpulkan bahwa tiap-tiap daerah pasti memiliki suatu pusat yang memiliki jarak terdekat. Maka dari hasil tersebut dapat digunakan sebagai bahan pemerataan penduduk di setiap daerah yang ada sehingga di setiap daerah tidak ada penduduk yang memiliki warga yang begitu banyak atau mengurangi kepadatan penduduk.
 <br></br>
 
--   Values
+-   Elbow Method
 <table>
   <tr>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(5).png" width="400" height="200" /></td>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(6).png" width="400" height="200" /></td>
+    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/grafik%20%20(17).png" width="600" height="300" /></td>
+
   </tr>
 </table>
 Pada grafik Elbow Method tersebut, akan dicari titik di mana penurunan nilai CS mulai melambat secara signifikan, membentuk sudut yang mirip dengan siku pada siku. Titik ini menandakan jumlah klaster yang optimal untuk data tersebut. Pada jumlah klaster akan dipilih sesuai dengan titik siku yang tertera tersebut. Pada grafik, dapat dilihat jika grafik tersebut setelah jumlah klaster 3, penurunan nilai CS tidak lagi signifikan, maka akan dipilih 3 sebagai jumlah klaster yang optimal untuk model. Setelah menentukan jumlah klaster optimal, dapat dilanjutkan dengan menggunakan jumlah klaster tersebut untuk melakukan klasterisasi pada dataset.
 <br></br>
 
-
+## Conclusion
+Hasil dari seluruh proses yang telah dilakukan, termasuk normalisasi data dan pemetaan awal, beserta langkah-langkah lainnya, tercermin dalam gambar yang ditampilkan di atas. Melalui analisis visual dari gambar akhir tersebut, dapat terlihat bahwa ada tiga titik pusat utama yang mewakili centroid dari setiap klaster yang dibentuk. Titik-titik ini berperan sebagai referensi jarak terdekat dari setiap daerah yang telah dikelompokkan ke dalam klaster. Dengan demikian, dapat diambil kesimpulan bahwa setiap daerah memiliki pusat klaster yang menjadi titik fokus terdekat bagi penduduk di daerah tersebut. Fenomena ini menunjukkan bahwa data populasi di berbagai daerah telah berhasil dikelompokkan ke dalam klaster dengan karakteristik yang serupa. Hasil klasterisasi ini dapat digunakan sebagai landasan untuk merencanakan pemerataan populasi di setiap daerah, dengan tujuan untuk mengurangi ketidakseimbangan jumlah penduduk yang mungkin terjadi atau kepadatan populasi yang berlebihan di suatu wilayah. Dengan demikian, pelaksanaan rencana pemerataan populasi berdasarkan hasil klasterisasi ini berpotensi membantu dalam menjaga distribusi penduduk yang lebih merata dan seimbang di seluruh wilayah.
 
 
