@@ -6,6 +6,7 @@
 - [Permasalahan](#permasalahan)
 - [Perbandingan Penggunaan K-Means](#perbandingan-penggunaan-k-means)
 - [Grafik Dataset](#grafik-dataset)
+- [Clustering](#clustering)
 - [Conclusion](#conclusion)
 
 ## Permasalahan
@@ -187,7 +188,21 @@ Dari semua proses yang sudah dilakukan baik dari normalisasi data, pemetaan awal
 Pada grafik Elbow Method tersebut, akan dicari titik di mana penurunan nilai CS mulai melambat secara signifikan, membentuk sudut yang mirip dengan siku pada siku. Titik ini menandakan jumlah klaster yang optimal untuk data tersebut. Pada jumlah klaster akan dipilih sesuai dengan titik siku yang tertera tersebut. Pada grafik, dapat dilihat jika grafik tersebut setelah jumlah klaster 3, penurunan nilai CS tidak lagi signifikan, maka akan dipilih 3 sebagai jumlah klaster yang optimal untuk model. Setelah menentukan jumlah klaster optimal, dapat dilanjutkan dengan menggunakan jumlah klaster tersebut untuk melakukan klasterisasi pada dataset.
 <br></br>
 
-
+## Clustering
+```
+       Desa/Kelurahan  Jumlah  Luas Wilayah Cluster
+0             Longori    2061          1.75   Padat
+1            Puundoho    1529          7.89   Padat
+2             Puulemo    1418         48.66  Sedang
+3               Baula    2058         29.03   Padat
+4            Puubenua     673          4.06   Padat
+5            Puubunga    1645          3.47   Padat
+6             Puuroda     522          3.22   Padat
+7             Pewutaa     645          2.87   Padat
+8            Watalara    1315         13.87   Padat
+9           Ulu Baula     830         19.24   Padat
+10           Ulu Kalo    1202         22.16   Padat
+```
 ## Conclusion
 Hasil dari seluruh proses yang telah dilakukan, termasuk normalisasi data dan pemetaan awal, beserta langkah-langkah lainnya, tercermin dalam gambar yang ditampilkan di atas. Melalui analisis visual dari gambar akhir tersebut, dapat terlihat bahwa ada tiga titik pusat utama yang mewakili centroid dari setiap klaster yang dibentuk. Titik-titik ini berperan sebagai referensi jarak terdekat dari setiap daerah yang telah dikelompokkan ke dalam klaster. Dengan demikian, dapat diambil kesimpulan bahwa setiap daerah memiliki pusat klaster yang menjadi titik fokus terdekat bagi penduduk di daerah tersebut. Fenomena ini menunjukkan bahwa data populasi di berbagai daerah telah berhasil dikelompokkan ke dalam klaster dengan karakteristik yang serupa. Hasil klasterisasi ini dapat digunakan sebagai landasan untuk merencanakan pemerataan populasi di setiap daerah, dengan tujuan untuk mengurangi ketidakseimbangan jumlah penduduk yang mungkin terjadi atau kepadatan populasi yang berlebihan di suatu wilayah. Dengan demikian, pelaksanaan rencana pemerataan populasi berdasarkan hasil klasterisasi ini berpotensi membantu dalam menjaga distribusi penduduk yang lebih merata dan seimbang di seluruh wilayah.
 
