@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [Permasalahan](#permasalahan)
-- [Perbandingan alasan penggunaan K means](#perbadingan)
+- [Perbandingan alasan penggunaan K means](#perbandinganalasanpenggunaankmeans)
 - [Grafik Dataset](#grafikdataset)
 - [Conclusion](#conclusion)
 
