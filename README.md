@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- [Permasalahan](## Permasalahan)
+- [Permasalahan](#permasalahan)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Screenshots](#screenshots)
