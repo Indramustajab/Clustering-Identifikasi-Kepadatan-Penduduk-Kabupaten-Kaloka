@@ -6,7 +6,7 @@
 - [Permasalahan](#permasalahan)
 - [Perbandingan Penggunaan K-Means](#perbandingan-penggunaan-k-means)
 - [Grafik Dataset](#grafik-dataset)
-- [Clustering](#clustering)
+- [Cluster](#cluster)
 - [Conclusion](#conclusion)
 
 ## Permasalahan
@@ -188,7 +188,7 @@ Dari semua proses yang sudah dilakukan baik dari normalisasi data, pemetaan awal
 Pada grafik Elbow Method tersebut, akan dicari titik di mana penurunan nilai CS mulai melambat secara signifikan, membentuk sudut yang mirip dengan siku pada siku. Titik ini menandakan jumlah klaster yang optimal untuk data tersebut. Pada jumlah klaster akan dipilih sesuai dengan titik siku yang tertera tersebut. Pada grafik, dapat dilihat jika grafik tersebut setelah jumlah klaster 3, penurunan nilai CS tidak lagi signifikan, maka akan dipilih 3 sebagai jumlah klaster yang optimal untuk model. Setelah menentukan jumlah klaster optimal, dapat dilanjutkan dengan menggunakan jumlah klaster tersebut untuk melakukan klasterisasi pada dataset.
 <br></br>
 
-## Clustering
+## Cluster
 ```
        Desa/Kelurahan  Jumlah  Luas Wilayah Cluster
 0             Longori    2061          1.75   Padat
