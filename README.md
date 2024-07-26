@@ -30,7 +30,7 @@ Tujuan identifikasi untuk memperoleh pemahaman yang lebih dalam tentang sebaran 
     <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(2).png" width="400" height="200" /></td>
   </tr>
 </table>
-Disini dapat dilihat dari 5 data yang disimulasikan memiliki grafik seperti gambar diatas. Dari jumlah penduduk memiliki keterikatan dengan nilai frekuensi begitu juga dengan luas wilayah yang saling berkaitan dengan nilai frekuensi juga.
+5 data yang disimulasikan memiliki grafik seperti gambar diatas. Dari jumlah penduduk memiliki keterikatan dengan nilai frekuensi begitu juga dengan luas wilayah yang saling berkaitan dengan nilai frekuensi juga.
 <br></br>
 
 - Categorical distributions
