@@ -5,7 +5,7 @@
 
 - [Permasalahan](#permasalahan)
 - [Perbandingan alasan penggunaan K means](#perbadingan)
-- [Grafik Dataset](#grafikDataset)
+- [Grafik Dataset](#grafikdataset)
 - [Conclusion](#conclusion)
 
 ## Permasalahan
