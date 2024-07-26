@@ -4,14 +4,14 @@
 ## Table of Contents
 
 - [Permasalahan](#permasalahan)
-- [Perbandingan Penggunaan K Means](#perbandingan-penggunaan-k-means)
+- [Perbandingan Penggunaan K-Means](#perbandingan-penggunaan-k-means)
 - [Grafik Dataset](#grafik-dataset)
 - [Conclusion](#conclusion)
 
 ## Permasalahan
 Tujuan identifikasi untuk memperoleh pemahaman yang lebih dalam tentang sebaran populasi di Kabupaten Kolaka, yang akan memberikan dasar bagi pengambilan keputusan yang lebih baik terkait dengan pengembangan wilayah dan kebijakan publik. Variabel data yang akan digunakan mencakup informasi populasi, termasuk jumlah penduduk di setiap wilayah administratif, serta atribut lain yang penting seperti luas wilayah atau perkembangan ekonomi. Metode analisis akan menggunakan teknik clustering untuk mengelompokkan wilayah-wilayah dengan pola kepadatan penduduk yang serupa menjadi cluster-cluster yang berbeda. Teknik clustering seperti K-means, DBSCAN, atau Hierarchical Clustering mungkin akan digunakan. Data yang Dibutuhkan adalah data geografis yang mencakup informasi tentang lokasi dan jumlah penduduk di setiap bagian administratif Kabupaten Kolaka, serta atribut-atribut lain yang relevan. Nantinya hasil yang diharapkan yaitu pemetaan cluster kepadatan penduduk, yang akan membantu dalam memahami lebih baik distribusi populasi di Kabupaten Kolaka. Pemetaan ini akan berguna untuk mengenali daerah-daerah dengan kepadatan penduduk yang berbeda, serta peluang dan tantangan dalam pembangunan wilayah.
 
-## Perbandingan penggunaan K Means
+## Perbandingan penggunaan K-Means
 >Perbandingan antara penggunaan K-means dengan metode lain dalam pemetaan penduduk:
 >>K-Means vs Hierarchical Clustering
 >>-	K-Means: Memerlukan jumlah cluster (K) yang ditentukan sebelumnya, cocok untuk data dengan cluster yang jelas dan berukuran seragam.
