@@ -4,7 +4,7 @@
 ## Data Visualization Pada Tableau
 <table>
   <tr>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(1).png" width="1500" height="600" /></td>
+    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Data%20Visualisasi.png" width="1500" height="600" /></td>
   
   </tr>
 </table>
