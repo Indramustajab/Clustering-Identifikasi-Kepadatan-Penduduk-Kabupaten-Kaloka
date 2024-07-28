@@ -1,10 +1,10 @@
 ># Clustering Identifikasi Kepadatan Penduduk Kabupaten Kaloka
 > >Identifikasi pola-pola kepadatan penduduk yang ada di Kabupaten Kolaka
 
-## Data visualization Pada Tableau
+## Data Visualization Pada Tableau
 <table>
   <tr>
-    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Data%20Visualization.png" width="1500" height="600" /></td>
+    <td><img src="https://github.com/Indramustajab/Clustering-Identifikasi-Kepadatan-Penduduk-Kabupaten-Kaloka/blob/main/Img%20Grafik/Grafik%20%20(1).png" width="1500" height="600" /></td>
   
   </tr>
 </table>
