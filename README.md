@@ -8,7 +8,6 @@
   
   </tr>
 </table>
-<br></br>
 
 ## Table of Contents
 
